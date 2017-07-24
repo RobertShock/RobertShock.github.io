@@ -1,0 +1,84 @@
+body {
+	background-color: #7BEAFF;
+	}
+
+nav {
+	border: solid #006B7F;
+	background-color: #00ACCC;
+	text-align: center;
+}
+nav li {
+     margin-right: 20;
+
+
+
+a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:hover {
+  color: white;
+}
+
+ul {
+	color: red;
+	list-style: none;
+}
+
+.contactMe {
+	text-align: center;
+	color: #657B7F;
+}
+.contactLinks {
+	text-align: center;
+	font-size: 20px;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+/* Twitter */
+.fa-github {
+    background: #55ACEE;
+    color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: #4099FF;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+footer {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+When the user hovers over one of the links, the color of the text should change.
+When the user hovers over one of the links, the background color of the element that contains the link should change.
+When the user clicks on one of the links, the element that contains the link should grow in size by 5px on the left and right.
