@@ -7,10 +7,6 @@ nav {
 	background-color: #00ACCC;
 	text-align: center;
 }
-nav li {
-     margin-right: 20;
-
-
 
 a:link {
   color: blue;
@@ -70,6 +66,75 @@ ul {
 footer {
 	text-align: center;
 }
+
+
+
+
+/*Card Styling*/
+.blog {
+  margin: 1%;
+  width: 400px;
+  border: 2px solid slategray;
+}
+
+/*.image img {
+  max-width: 100%;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+*/
+/*.description > * {
+  text-align: center;
+  margin: 0;
+}
+*/
+.description {
+  padding: 2%;
+}
+
+.description h6 {
+  font-size: 1.5em;
+  padding: 2%;
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Lemonada', cursive;
+}
+
+
+/* CARD LAYOUT */
+#product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+/* SOLD OUT */
+/*.sold-out {
+  position: relative;
+  top: -400px;
+}*/
+
+/*.sold-out {
+  position: absolute;
+  top: 0;
+}*/
+
+.product {
+  position: relative;
+}
+
+.sold-out {
+  position: absolute;
+  top: 90px;
+}
+
+
+
+
 
 
 
