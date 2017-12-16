@@ -1,0 +1,13 @@
+<hr class="horizontal_break">
+<div id="blogContainer" class="text-center container" ng-controller="BlogCtrl">
+    <h1 class="text-center">NSS Experiences Blog</h1>
+    <div class="container col-md-4 col-md-4" ng-repeat="blog in blogs">
+        <div class="thumbnail">
+            <div class="pannel-heading">
+                <h2>{{blog.title}}</h2>
+                <h4>{{blog.date}}</h4>
+                <p>{{blog.content}}</p>
+            </div>
+        </div>
+    </div>
+</div>

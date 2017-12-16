@@ -1,56 +1,64 @@
 <!DOCTYPE html>
 <html>
-  <head>
-	 <title>Professional Work History</title>
-	 <link rel="stylesheet" type="text/css" href="main.css">
-   <!-- Add icon library -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
+<head>
+	<script src="https://use.fontawesome.com/0f643a1640.js"></script>
+	<link rel="stylesheet" type="text/css" href="./lib/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./styles/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto:100" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+	<title>Robbie Shock</title>
+</head>
 
-<body>
-<nav>
-    <ul>
-      <a href="aboutme.html">About Me</a>
-      <a href="index.html">Work History</a>
-      <a href="projects.html">Projects</a>
-      <a href="#">Contact Me</a>
-      <a href="myBlog.html">My Blog Post</a></li>      
-    </ul>
-  </nav>
-    
-    <!-- <section class="employers">
-      <h1>Professional Work History </h1>
-    </section>
+<body ng-app="MyPersonalSite">
+	<div ng-include="'./partials/nav.html'"></div>
+	<div ng-include="'./partials/footer.html'"></div>
+	<div class="container-fluid" ng-view></div>
 
-    <article class="nbib">
-      <section>
-      <header>KGS     November 2011-present</header>
-        <section>
-          <h4>National Background Investigations Bureau Investigator</h4>
-          <p>Conduct background investigations on persons seeking positions with the US Government which require an wide range of Federal Security Clearances.</p>
-        </section>
-      </section>
-    </article>
+<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+<script type="text/javascript" src="./lib/node_modules/animejs/anime.min.js"></script>
+<script type="text/javascript" src="./lib/node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="./lib/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./lib/node_modules/angular/angular.min.js"></script>
+<script type="text/javascript" src="./lib/node_modules/angular-route/angular-route.min.js"></script>
+<script type="text/javascript" src="./lib/node_modules/angular-animate/angular-animate.min.js"></script>
+<script type="text/javascript" src="./lib/node_modules/angular-sanitize/angular-sanitize.min.js"></script>
 
-    <article class="dcso">
-      <section>
-      <header>Davidson County Sheriff's Office     November 2009-November 2011</header>
-        <section>
-          <h4>Deputy Sheriff</h4>
-          <p>Keeper of the peace in Nashville, TN.</p>
-        </section>
-      </section>
-    </article>
+<script type="text/javascript" src="./javascripts/app.js"></script>
+<script type="text/javascript" src="./javascripts/AppConstants.js"></script>
+<script type="text/javascript" src="./javascripts/AppConfig.js"></script>
 
-    <article class="indot">
-      <section>
-      <header>State of Indiana Department of Transportation</header> 
-        <section>
-          <h4>State Web Posting</h4>
-          <p>Updated and maintained the State of Indiana Dept. of Transportation webpage used for RFP and project information.</p>
-        </section>
-      </section> -->
-    </article>
-  <footer>© 2017 R. F. Shock</footer>
+<script type="text/javascript" src="./javascripts/services/FireBaseService.js"></script>
+
+<script type="text/javascript" src="./javascripts/controllers/NavCtrl.js"></script>
+<script type="text/javascript" src="./javascripts/controllers/AboutCtrl.js"></script>
+<script type="text/javascript" src="./javascripts/controllers/BlogCtrl.js"></script>
+<script type="text/javascript" src="./javascripts/controllers/ProjectsCtrl.js"></script>
+<script type="text/javascript" src="./javascripts/controllers/ContactCtrl.js"></script>
+
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
