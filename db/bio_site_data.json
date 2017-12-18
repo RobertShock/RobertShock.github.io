@@ -23,6 +23,18 @@
       "name": "My Warranty Pal App",
       "url": "https://github.com/RobertShock/MyWarrantyPal",
       "description": "An app used to track all warranties related to daily life."
+    },
+    {
+      "id": 5,
+      "name": "Sandwichbuilder",
+      "url": "https://github.com/RobertShock/sandwichbuilder",
+      "description": "Browserify project which allows the user to build a custom sandwich and each selected item is totalled at the end."
+    },
+    {
+      "id": 6,
+      "name": "Dynamic Cards",
+      "url": "https://github.com/RobertShock/dynamic-cards",
+      "description": "This was a class project we completed in August, 2017.  I have displayed it here to show how far I have come in four months."
     }
   ],
 
@@ -47,57 +59,57 @@
     },
     {
       "id": 4,
-      "title": "",
-      "content": "",
+      "title": "My Blog 4",
+      "content": "We completed a group project named Dynamic Cards.  We used JS and CSS for this project and I was able to create cards which printed to the page and that could be altered using event listeners such as 'onclick'.",
       "date": "8/22/17"
     },
     {
       "id": 5,
-      "title": "",
-      "content": "",
+      "title": "My Blog 5",
+      "content": "We have complete two additional projects since my last blog.  Both used JS and CSS.  While I am still struggling, I do feel that I am gaining a better grasp.",
       "date": "8/29/17"
     },
     {
       "id": 6,
-      "title": "",
-      "content": "",
+      "title": "My Blog 6",
+      "content": "We have been introduced to Bootstrap and I think that it makes some things easier.  We have deployed Bootstrap to our personal sites.",
       "date": "9/5/17"
     },
     {
       "id": 7,
-      "title": "",
-      "content": "",
+      "title": "My Blog 7",
+      "content": "I completed the sandwichbuilder project.  The app allows the user to build a custom sandwich and adds the total of each selected item at the end.  Bootstrap was used on this project also.",
       "date": "9/18/17"
     },
     {
       "id": 8,
-      "title": "",
-      "content": "",
+      "title": "My Blog 8",
+      "content": "Jquery.  This has been my first exposure to jquery and I am not sure how I feel about it.  I will work with it some more and update.  To be continued...",
       "date": "10/7/17"
     },
     {
       "id": 9,
-      "title": "",
-      "content": "",
-      "date": "10/17/17"
-    },
-    {
-      "id": 10,
-      "title": "",
-      "content": "",
+      "title": "My Blog 9",
+      "content": "API's: we have been working with API's.  If done correctly, they are powerful banks of information.  We have used a API to build an app which allows one to search The Movie Database for specific movie information.  Its pretty awesome when I finally got it working.",
       "date": "10/24/17"
     },
     {
-      "id": 11,
-      "title": "",
-      "content": "",
+      "id": 10,
+      "title": "My Blog 10",
+      "content": "Firebase: We have set up a Firebase service to deploy our projects from.  We no longer have to use our computer as the host server.  I do not totally understand how this works but I will address it again in another blog.",
       "date": "10/31/17"
     },
     {
+      "id": 11,
+      "title": "My Blog 11",
+      "content": "Angular:  I love it.  This is the first program that truely makes sense to me.  There are positives and negatives to anything.  The negatives: Lots of controllers and partials.  I constantly forget to add the new controllers to my index page which makes the whole site crash.",
+      "date": "11/27/17"
+    },
+    {
       "id": 12,
-      "title": "aaa",
-      "content": "aaa",
-      "date": "11/14/17"
+      "title": "My Blog 12",
+      "content": "My capstone project has been approved as I have finally finished Angular Contacts.  I am going to produce an app which allows one to track all warranties related to all aspects of their lives; electronics, vehicles, appliances, etc.  I will be using Angular and Bootstrap and deploying from Firebase.",
+      "date": "12/2/17"
     }
   ]
 }
