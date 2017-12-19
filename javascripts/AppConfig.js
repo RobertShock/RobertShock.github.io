@@ -18,9 +18,5 @@ app.config(function($routeProvider){
 		templateUrl: 'partials/projects.html',
 		controller: 'ProjectsCtrl'
     })
-    .when("/contact", {
-		templateUrl: 'partials/contact.html',
-		controller: 'ContactCtrl'
-		})
 		.otherwise('/about');
 });
