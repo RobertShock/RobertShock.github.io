@@ -1,5 +1,9 @@
-#productCard {
+#projectCard {
   height: 200px; }
 
 .copyright {
   color: lightslategray; }
+
+#blogCard {
+  height: 200px;
+  color: teal; }
